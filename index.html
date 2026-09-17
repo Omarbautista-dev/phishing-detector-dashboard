@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de Phishing</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Iconos de FontAwesome para la barra de búsqueda -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Encabezado / Barra superior -->
+<header class="header">
+    <h1 class="logo">Detector de Phishing</h1>
+    <span class="author">Created by: Omar & John</span>
+</header>
+
+<!-- Contenedor Principal Dashboard -->
+<main class="dashboard-container">
+
+    <!-- Panel Izquierdo: URLS Analizadas -->
+    <aside class="panel urls-panel">
+        <h2 class="panel-title">URLS Analizadas</h2>
+        <div class="filter-pills">
+            <button class="pill active">Todos</button>
+            <button class="pill">Seguras</button>
+            <button class="pill">Sospechosas</button>
+            <button class="pill">Criticas</button>
+        </div>
+        <div class="list-container">
+            <ul class="url-list">
+                <li></li><li></li><li></li><li></li><li></li>
+                <li></li><li></li><li></li><li></li><li></li>
+                <li></li><li></li><li></li><li></li><li></li>
+                <li></li><li></li><li></li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- Área Principal Derecha -->
+    <section class="main-content">
+
+        <!-- Barra de Búsqueda / Input -->
+        <div class="search-section">
+            <div class="search-bar">
+                <i class="fa-solid fa-bars menu-icon"></i>
+                <input type="text" placeholder="Ingrese la URL a analizar">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+        </div>
+
+        <!-- Grilla para Indicadores y Medidas -->
+        <div class="grid-two-columns">
+
+            <!-- Panel de Indicadores de Phishing -->
+            <div class="panel indicators-panel">
+                <h2 class="panel-title">Indicadores de Phishing</h2>
+                <div class="chart-container">
+                    <div class="pie-chart"></div>
+                </div>
+                <div class="legend-grid">
+                    <div class="legend-item"><span class="color-box c1"></span> Indicador de Phishing</div>
+                    <div class="legend-item"><span class="color-box c5"></span> Indicador de Phishing</div>
+                    <div class="legend-item"><span class="color-box c2"></span> Indicador de Phishing</div>
+                    <div class="legend-item"><span class="color-box c6"></span> Indicador de Phishing</div>
+                    <div class="legend-item"><span class="color-box c3"></span> Indicador de Phishing</div>
+                    <div class="legend-item"><span class="color-box c7"></span> Indicador de Phishing</div>
+                    <div class="legend-item"><span class="color-box c4"></span> Indicador de Phishing</div>
+                    <div class="legend-item"><span class="color-box c8"></span> Indicador de Phishing</div>
+                </div>
+            </div>
+
+            <!-- Panel de Medidas Recomendadas -->
+            <div class="panel measures-panel">
+                <h2 class="panel-title">Medidas Recomendadas</h2>
+                <div class="measures-container">
+                    <div class="measure-row"></div>
+                    <div class="measure-row"></div>
+                    <div class="measure-row"></div>
+                    <div class="measure-row"></div>
+                    <div class="measure-row"></div>
+                    <div class="measure-row"></div>
+                    <div class="measure-row"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+</body>
+</html>

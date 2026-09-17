@@ -1,0 +1,232 @@
+/* Configuración General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #2b453a;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.author {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Disposición del Dashboard */
+.dashboard-container {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 20px;
+    flex: 1;
+}
+
+/* Estilo Base para los Paneles de Contorno Verde Claro */
+.panel {
+    background-color: #496859;
+    border: 3px solid #7c9982;
+    border-radius: 25px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.panel-title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Panel Izquierdo: URLS Analizadas */
+.urls-panel {
+    align-self: stretch;
+}
+
+.filter-pills {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.pill {
+    background-color: #2a3c33;
+    color: #ffffff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.pill.active, .pill:hover {
+    background-color: #1f2b25;
+}
+
+.list-container {
+    background-color: #e3e6be;
+    border-radius: 15px;
+    flex: 1;
+    padding: 10px 0;
+    overflow-y: auto;
+}
+
+.url-list {
+    list-style: none;
+}
+
+.url-list li {
+    height: 22px;
+    border-bottom: 1px solid #c2c69d;
+}
+
+.url-list li:last-child {
+    border-bottom: none;
+}
+
+/* Área de Contenido Principal Derecha */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Sección de la Barra de Búsqueda */
+.search-section {
+    background-color: #557263;
+    border: 3px solid #7c9982;
+    border-radius: 20px;
+    padding: 12px 15px;
+}
+
+.search-bar {
+    background-color: #e3e6be;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 8px 18px;
+    gap: 12px;
+}
+
+.search-bar .menu-icon,
+.search-bar .search-icon {
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-bar input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    outline: none;
+    font-size: 13px;
+    color: #333;
+}
+
+.search-bar input::placeholder {
+    color: #555;
+}
+
+/* Grilla Inferior (Indicadores + Medidas) */
+.grid-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex: 1;
+}
+
+/* Gráfico Circular */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.pie-chart {
+    width: 200px;
+    height: 200px;
+    background-color: #e3e6be;
+    border-radius: 50%;
+}
+
+/* Leyenda del Gráfico */
+.legend-grid {
+    background-color: #e3e6be;
+    border-radius: 10px;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 12px;
+}
+
+.legend-item {
+    color: #222;
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.color-box {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+
+/* Colores de la Leyenda identificados de la imagen */
+.c1 { background-color: #9ba1cc; }
+.c2 { background-color: #101fa2; }
+.c3 { background-color: #2f6b1e; }
+.c4 { background-color: #d854be; }
+.c5 { background-color: #cdfa32; }
+.c6 { background-color: #49a81e; }
+.c7 { background-color: #9d1b4c; }
+.c8 { background-color: #ba8651; }
+
+/* Panel de Medidas Recomendadas */
+.measures-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.measures-container {
+    background-color: #e3e6be;
+    border-radius: 15px;
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.measure-row {
+    background-color: #496859;
+    height: 38px;
+    border-radius: 6px;
+}
