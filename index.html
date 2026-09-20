@@ -23,18 +23,13 @@
     <aside class="panel urls-panel">
         <h2 class="panel-title">URLS Analizadas</h2>
         <div class="filter-pills">
-            <button class="pill active">Todos</button>
-            <button class="pill">Seguras</button>
-            <button class="pill">Sospechosas</button>
-            <button class="pill">Criticas</button>
+            <button class="pill active" data-filter="todos">Todos</button>
+            <button class="pill" data-filter="segura">Seguras</button>
+            <button class="pill" data-filter="sospechosa">Sospechosas</button>
+            <button class="pill" data-filter="critica">Criticas</button>
         </div>
         <div class="list-container">
-            <ul class="url-list">
-                <li></li><li></li><li></li><li></li><li></li>
-                <li></li><li></li><li></li><li></li><li></li>
-                <li></li><li></li><li></li><li></li><li></li>
-                <li></li><li></li><li></li>
-            </ul>
+            <ul class="url-list" id="url-list"></ul>
         </div>
     </aside>
 
@@ -43,11 +38,11 @@
 
         <!-- Barra de Búsqueda / Input -->
         <div class="search-section">
-            <div class="search-bar">
+            <form class="search-bar" id="analyze-form">
                 <i class="fa-solid fa-bars menu-icon"></i>
-                <input type="text" placeholder="Ingrese la URL a analizar">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            </div>
+                <input type="text" id="url-input" placeholder="Ingrese la URL a analizar" autocomplete="off">
+                <button type="submit" id="analyze-btn" aria-label="Analizar"><i class="fa-solid fa-magnifying-glass search-icon"></i></button>
+            </form>
         </div>
 
         <!-- Grilla para Indicadores y Medidas -->
@@ -57,31 +52,25 @@
             <div class="panel indicators-panel">
                 <h2 class="panel-title">Indicadores de Phishing</h2>
                 <div class="chart-container">
-                    <div class="pie-chart"></div>
+                    <div class="pie-chart" id="risk-chart"></div>
                 </div>
-                <div class="legend-grid">
-                    <div class="legend-item"><span class="color-box c1"></span> Indicador de Phishing</div>
-                    <div class="legend-item"><span class="color-box c5"></span> Indicador de Phishing</div>
-                    <div class="legend-item"><span class="color-box c2"></span> Indicador de Phishing</div>
-                    <div class="legend-item"><span class="color-box c6"></span> Indicador de Phishing</div>
-                    <div class="legend-item"><span class="color-box c3"></span> Indicador de Phishing</div>
-                    <div class="legend-item"><span class="color-box c7"></span> Indicador de Phishing</div>
-                    <div class="legend-item"><span class="color-box c4"></span> Indicador de Phishing</div>
-                    <div class="legend-item"><span class="color-box c8"></span> Indicador de Phishing</div>
+                <div id="risk-score" class="risk-score">Sin análisis</div>
+                <div class="legend-grid" id="indicators-legend">
+                    <div class="legend-item" data-ind="ip"><span class="color-box c1"></span> IP explícita</div>
+                    <div class="legend-item" data-ind="length"><span class="color-box c2"></span> Longitud &gt; 75</div>
+                    <div class="legend-item" data-ind="subdomains"><span class="color-box c3"></span> +3 subdominios</div>
+                    <div class="legend-item" data-ind="keywords"><span class="color-box c4"></span> Palabras clave</div>
+                    <div class="legend-item" data-ind="https"><span class="color-box c5"></span> Sin HTTPS</div>
+                    <div class="legend-item" data-ind="at"><span class="color-box c6"></span> Arroba (@)</div>
+                    <div class="legend-item" data-ind="dash"><span class="color-box c7"></span> Guion en dominio</div>
                 </div>
             </div>
 
             <!-- Panel de Medidas Recomendadas -->
             <div class="panel measures-panel">
                 <h2 class="panel-title">Medidas Recomendadas</h2>
-                <div class="measures-container">
-                    <div class="measure-row"></div>
-                    <div class="measure-row"></div>
-                    <div class="measure-row"></div>
-                    <div class="measure-row"></div>
-                    <div class="measure-row"></div>
-                    <div class="measure-row"></div>
-                    <div class="measure-row"></div>
+                <div class="measures-container" id="measures-list">
+                    <div class="measure-row">Sin análisis — ingresa una URL.</div>
                 </div>
             </div>
 
@@ -90,5 +79,6 @@
 
 </main>
 
+<script src="js/app.js"></script>
 </body>
 </html>
