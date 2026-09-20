@@ -1,3 +1,5 @@
+🌐 Live Demo: https://omarbautista-dev.github.io/phishing-detector-dashboard/
+
 # 🎣 Phishing Detector Dashboard
 
 Dashboard web para detectar intentos de phishing con 7 heurísticas en frontend. Analiza una URL, calcula nivel de riesgo y recomienda medidas.
