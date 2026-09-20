@@ -227,6 +227,52 @@ body {
 
 .measure-row {
     background-color: #496859;
-    height: 38px;
+    min-height: 38px;
     border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Funcional: score, lista, badges */
+.risk-score {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    background: #e3e6be;
+    color: #2a3c33;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+#analyze-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.url-list li {
+    min-height: 22px;
+    height: auto;
+    padding: 4px 10px;
+    font-size: 11px;
+    color: #2a3c33;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.url-list li span.url { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.badge { border-radius: 8px; padding: 1px 7px; color: #fff; font-weight: bold; }
+.badge.segura { background: #2f6b1e; }
+.badge.sospechosa { background: #ba8651; }
+.badge.critica { background: #9d1b4c; }
+.legend-item.hit { outline: 2px solid #2a3c33; border-radius: 4px; }
+
+@media (max-width: 900px) {
+    .dashboard-container { grid-template-columns: 1fr; }
+    .grid-two-columns { grid-template-columns: 1fr; }
 }
