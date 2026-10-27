@@ -1,0 +1,70 @@
+url,label,source,date,host,https,len,larga,ip,subdominios,multisub,keywords,kw_lista,arroba,guion
+https://www.google.com,legitima,Tranco-Top1M,2026-09-28,www.google.com,1,22,0,0,1,0,0,,0,0
+https://www.facebook.com,legitima,Tranco-Top1M,2026-09-28,www.facebook.com,1,24,0,0,1,0,0,,0,0
+https://www.amazon.com.mx,legitima,Tranco-Top1M,2026-09-28,www.amazon.com.mx,1,25,0,0,2,0,0,,0,0
+https://www.github.com,legitima,Tranco-Top1M,2026-09-28,www.github.com,1,22,0,0,1,0,0,,0,0
+https://www.wikipedia.org,legitima,Tranco-Top1M,2026-09-28,www.wikipedia.org,1,25,0,0,1,0,0,,0,0
+https://www.bancomer.com.mx,legitima,Banco oficial (sitio corporativo),2026-09-28,www.bancomer.com.mx,1,27,0,0,2,0,0,,0,0
+https://www.bbva.com,legitima,Banco oficial (sitio corporativo),2026-09-28,www.bbva.com,1,20,0,0,1,0,0,,0,0
+https://www.santander.com.mx,legitima,Banco oficial (sitio corporativo),2026-09-28,www.santander.com.mx,1,28,0,0,2,0,0,,0,0
+https://www.microsoft.com/en-us,legitima,Tranco-Top1M,2026-09-28,www.microsoft.com,1,31,0,0,1,0,0,,0,0
+https://www.netflix.com,legitima,Tranco-Top1M,2026-09-28,www.netflix.com,1,23,0,0,1,0,0,,0,0
+https://www.spotify.com,legitima,Tranco-Top1M,2026-09-28,www.spotify.com,1,23,0,0,1,0,0,,0,0
+https://www.youtube.com,legitima,Tranco-Top1M,2026-09-28,www.youtube.com,1,23,0,0,1,0,0,,0,0
+https://www.instagram.com,legitima,Tranco-Top1M,2026-09-28,www.instagram.com,1,25,0,0,1,0,0,,0,0
+https://www.twitter.com,legitima,Tranco-Top1M,2026-09-28,www.twitter.com,1,23,0,0,1,0,0,,0,0
+https://www.linkedin.com,legitima,Tranco-Top1M,2026-09-28,www.linkedin.com,1,24,0,0,1,0,0,,0,0
+https://www.paypal.com,legitima,Tranco-Top1M,2026-09-28,www.paypal.com,1,22,0,0,1,0,0,,0,0
+https://www.mercadolibre.com.mx,legitima,Tranco-Top1M,2026-09-28,www.mercadolibre.com.mx,1,31,0,0,2,0,0,,0,0
+https://www.cfe.mx,legitima,Sitio gubernamental,2026-09-29,www.cfe.mx,1,18,0,0,1,0,0,,0,0
+https://www.sat.gob.mx,legitima,Sitio gubernamental,2026-09-29,www.sat.gob.mx,1,22,0,0,2,0,0,,0,0
+https://www.imss.gob.mx,legitima,Sitio gubernamental,2026-09-29,www.imss.gob.mx,1,23,0,0,2,0,0,,0,0
+https://www.gob.mx,legitima,Sitio gubernamental,2026-09-29,www.gob.mx,1,18,0,0,1,0,0,,0,0
+https://mail.google.com,legitima,Tranco-Top1M,2026-09-29,mail.google.com,1,23,0,0,1,0,0,,0,0
+https://outlook.office.com,legitima,Tranco-Top1M,2026-09-29,outlook.office.com,1,26,0,0,1,0,0,,0,0
+https://www.cloudflare.com,legitima,Tranco-Top1M,2026-09-29,www.cloudflare.com,1,26,0,0,1,0,0,,0,0
+https://stackoverflow.com,legitima,Tranco-Top1M,2026-09-29,stackoverflow.com,1,25,0,0,0,0,0,,0,0
+https://www.medium.com,legitima,Tranco-Top1M,2026-09-29,www.medium.com,1,22,0,0,1,0,0,,0,0
+https://www.reddit.com,legitima,Tranco-Top1M,2026-09-29,www.reddit.com,1,22,0,0,1,0,0,,0,0
+https://www.tiktok.com,legitima,Tranco-Top1M,2026-09-29,www.tiktok.com,1,22,0,0,1,0,0,,0,0
+https://www.whatsapp.com,legitima,Tranco-Top1M,2026-09-30,www.whatsapp.com,1,24,0,0,1,0,0,,0,0
+https://www.openai.com,legitima,Tranco-Top1M,2026-09-30,www.openai.com,1,22,0,0,1,0,0,,0,0
+https://www.canva.com,legitima,Tranco-Top1M,2026-09-30,www.canva.com,1,21,0,0,1,0,0,,0,0
+https://www.figma.com,legitima,Tranco-Top1M,2026-09-30,www.figma.com,1,21,0,0,1,0,0,,0,0
+https://www.zoom.us,legitima,Tranco-Top1M,2026-09-30,www.zoom.us,1,19,0,0,1,0,0,,0,0
+https://www.dropbox.com,legitima,Tranco-Top1M,2026-09-30,www.dropbox.com,1,23,0,0,1,0,0,,0,0
+https://www.adobe.com,legitima,Tranco-Top1M,2026-09-30,www.adobe.com,1,21,0,0,1,0,0,,0,0
+https://www.dell.com,legitima,Tranco-Top1M,2026-09-30,www.dell.com,1,20,0,0,1,0,0,,0,0
+https://www.hp.com,legitima,Tranco-Top1M,2026-09-30,www.hp.com,1,18,0,0,1,0,0,,0,0
+https://www.ikea.com,legitima,Tranco-Top1M,2026-09-30,www.ikea.com,1,20,0,0,1,0,0,,0,0
+https://www.coppel.com,legitima,Tranco-Top1M,2026-09-30,www.coppel.com,1,22,0,0,1,0,0,,0,0
+https://www.liverpool.com.mx,legitima,Tranco-Top1M,2026-09-30,www.liverpool.com.mx,1,28,0,0,2,0,0,,0,0
+http://192.168.1.50/banco/login.php,phishing,PhishTank (muestra local),2026-10-01,192.168.1.50,0,35,0,1,2,0,1,login,0,0
+http://45.33.32.156/secure/verify/account,phishing,PhishTank,2026-10-01,45.33.32.156,0,41,0,1,2,0,1,verify|secure,0,0
+https://bаnco-santander.com.mx/login,phishing,URLScan.io (homografo),2026-10-01,bаnco-santander.com.mx,1,36,0,0,1,0,1,login,0,1
+http://banco-seguro-login.verify-account-update.secure.access-banco.mx/verify/account/update/session/1234567890abcdef,phishing,OpenPhish,2026-10-01,banco-seguro-login.verify-account-update.secure.access-banco.mx,0,117,1,0,3,1,1,login|verify|secure|update,0,1
+http://www.login-secure-update.bancointernet.seguridad.clientes.top/verify,phishing,OpenPhish,2026-10-01,www.login-secure-update.bancointernet.seguridad.clientes.top,0,74,0,0,4,1,1,login|verify|secure|update,0,1
+https://bit.ly/3xK9fQm,phishing,Acortador (PhishTank),2026-10-01,bit.ly,1,22,0,0,0,0,0,,0,0
+http://www.paypal.com@secure-login.tk/account/verify,phishing,PhishTank,2026-10-01,secure-login.tk,0,52,0,0,0,0,1,login|verify|secure,1,1
+https://g00gle.com.mx/secure/account,phishing,PhishTank (typosquatting),2026-10-02,g00gle.com.mx,1,36,0,0,1,0,1,secure,0,0
+http://account-verify-update.free-bonus-prize.win/claim-now,phishing,OpenPhish,2026-10-02,account-verify-update.free-bonus-prize.win,0,59,0,0,1,0,1,verify|update|free|bonus,0,1
+http://172.16.0.9:8080/sat/devolucion/login,phishing,PhishTank (muestra local),2026-10-02,172.16.0.9,0,43,0,1,2,0,1,login,0,0
+https://www.faceb00k-login.com/verify/email,phishing,URLScan.io (typosquatting),2026-10-02,www.faceb00k-login.com,1,43,0,0,1,0,1,login|verify,0,1
+http://secure-update-banco.serveftp.com/login/verify/secure,phishing,PhishTank,2026-10-02,secure-update-banco.serveftp.com,0,59,0,0,1,0,1,login|verify|secure|update,0,1
+https://microsoft-support-verify.office365.verify-account.suspect-domain.net/login,phishing,OpenPhish,2026-10-02,microsoft-support-verify.office365.verify-account.suspect-domain.net,1,82,1,0,3,1,1,login|verify,0,1
+http://www.netflix.verify-account.billing-update.suspicious.host/verify,phishing,OpenPhish,2026-10-02,www.netflix.verify-account.billing-update.suspicious.host,0,71,0,0,4,1,1,verify|update,0,1
+https://whatsapp-gratis-verificacion.promo-bonus.top/verify/phone,phishing,PhishTank,2026-10-02,whatsapp-gratis-verificacion.promo-bonus.top,1,65,0,0,1,0,1,verify|bonus,0,1
+http://www.santander-clientes.banco-seguro.com/login.php?session=verify,phishing,PhishTank (typosquatting),2026-10-02,www.santander-clientes.banco-seguro.com,0,71,0,0,2,0,1,login|verify,0,1
+https://www.instagram.com.verify-login.secure-session.user-check.top/account,phishing,OpenPhish,2026-10-02,www.instagram.com.verify-login.secure-session.user-check.top,1,76,1,0,5,1,1,login|verify|secure,0,1
+http://198.51.100.7/sat/constancia/login.php,phishing,PhishTank (muestra local),2026-10-02,198.51.100.7,0,44,0,1,2,0,1,login,0,0
+https://drive.google.com@file-sharing.download/verify-account/update,phishing,PhishTank,2026-10-02,file-sharing.download,1,68,0,0,0,0,1,verify|update,1,1
+http://secure-banco-login-update-verify.access-clientes-account.mx/verify/account/update/password/session/token/abcdef1234567890,phishing,OpenPhish,2026-10-02,secure-banco-login-update-verify.access-clientes-account.mx,0,128,1,0,1,0,1,login|verify|secure|update,0,1
+https://bbva-cliente-seguro.bbva-login.verify.secure-user.top/login,phishing,OpenPhish,2026-10-02,bbva-cliente-seguro.bbva-login.verify.secure-user.top,1,67,0,0,3,1,1,login|verify|secure,0,1
+http://www.amazon.prize-free-bonus.claim.now.suspect-site.xyz/claim,phishing,PhishTank,2026-10-02,www.amazon.prize-free-bonus.claim.now.suspect-site.xyz,0,67,0,0,5,1,1,free|bonus,0,1
+https://www.paypal-secure.login.verify.account.suspect-domain.com/verify,phishing,URLScan.io,2026-10-02,www.paypal-secure.login.verify.account.suspect-domain.com,1,72,0,0,5,1,1,login|verify|secure,0,1
+http://10.0.0.15/admin/panel/login.php,phishing,PhishTank (muestra local),2026-10-02,10.0.0.15,0,38,0,1,2,0,1,login,0,0
+https://www.youtube.verify-login.secure-account-update.user-check.top/verify,phishing,OpenPhish,2026-10-02,www.youtube.verify-login.secure-account-update.user-check.top,1,76,1,0,4,1,1,login|verify|secure|update,0,1
+http://appleid-verify-account.secure-update.login.bonus-prize.top/verify,phishing,PhishTank,2026-10-02,appleid-verify-account.secure-update.login.bonus-prize.top,0,72,0,0,3,1,1,login|verify|secure|update|bonus,0,1
+https://www.gob.mx-sat.devolucion.verificacion.segura.top/login,phishing,URLScan.io (typosquatting),2026-10-02,www.gob.mx-sat.devolucion.verificacion.segura.top,1,63,0,0,5,1,1,login,0,1
+http://secure-login-banco-update.verify-account.session.token.access-banco.com.mx/verify/account/update/session/xyz123456789,phishing,OpenPhish,2026-10-02,secure-login-banco-update.verify-account.session.token.access-banco.com.mx,0,124,1,0,5,1,1,login|verify|secure|update,0,1
+https://dropbox-shared-file.verify-download.secure.login.top/file/verify,phishing,PhishTank,2026-10-02,dropbox-shared-file.verify-download.secure.login.top,1,72,0,0,3,1,1,login|verify|secure,0,1
